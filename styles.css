@@ -1,0 +1,274 @@
+* {
+    font-family: 'Times New Roman', Times, serif, Georgia;
+}
+
+body {
+    margin: 0%;
+}
+
+/*
+.Main {
+
+}
+*/
+
+
+.IndexTopNagivationBar {
+  background-color: tomato;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.IndexTopNagivationBar a:hover {
+  background-color: #ddd;
+  color: blueviolet;
+}
+
+.IndexTopNagivationBar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.IndexTopNavigationBarLogo {
+  margin: 25px;
+}
+.IndexTopNavigationBarLogo a {
+  color: #000000;
+  text-decoration: none;
+}
+.IndexTopNavigationBarHome {
+  margin: 25px;
+}
+.IndexTopNavigationBarHome a {
+  color: #000000;
+  text-decoration: none;
+}
+.IndexTopNavigationBarProducts {
+  margin: 25px;
+}
+.IndexTopNavigationBarProducts a {
+  color: #000000;
+  text-decoration: none;
+}
+.IndexTopNavigationBarContact {
+  margin: 25px;
+}
+.IndexTopNavigationBarContact a {
+  color: #000000;
+  text-decoration: none;
+}
+.IndexTopNavigationBarAbout {
+  margin: 25px;
+}
+.IndexTopNavigationBarAbout a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+
+
+
+.BottomBar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: goldenrod;
+  display: flex;
+  justify-content: space-between;
+}
+.IndexTopNavigationBarLogoBot {
+  margin: 50px;
+}
+.IndexTopNavigationBarLogoBot a {
+  color: #000000;
+  text-decoration: none;
+}
+.IndexTopNavigationBarHomeBot {
+  margin-top: 40%;
+}
+.IndexTopNavigationBarHomeBot a {
+  color: #000000;
+  text-decoration: none;
+}
+.IndexTopNavigationBarProductsBot {
+  
+}
+.IndexTopNavigationBarProductsBot a {
+  color: #000000;
+  text-decoration: none;
+}
+.IndexTopNavigationBarContactBot {
+  
+}
+.IndexTopNavigationBarContactBot a {
+  color: #000000;
+  text-decoration: none;
+}
+.IndexTopNavigationBarAboutBot {
+  
+}
+.IndexTopNavigationBarAboutBot a {
+  color: #000000;
+  text-decoration: none;
+}
+.BotBarContactList {
+  margin-top: 20%;
+}
+.LinkedIn {
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+}
+.CVR {
+  margin-top: 2.5%;
+}
+
+
+
+
+
+
+
+.Product1Page1 {
+  margin: 5%;
+  display: flex;
+}
+.Product1Border {
+  text-align: center;
+  border: 2px solid;
+  width: 200px;
+  height: 200px;
+  margin: 2%;
+}
+.Product1PageText {
+  margin-left: 5%;
+  padding-left: 6%;
+  border-left: 2px solid;
+  justify-content: center;
+  font-size: larger;
+}
+.Product1BorderColor {
+  border: 2px solid;
+  width: 25px;
+  height: 25px;
+  margin: 1%;
+  background-color: red;
+}
+.Product2BorderColor {
+  border: 2px solid;
+  width: 25px;
+  height: 25px;
+  margin: 1%;
+  background-color: green;
+}
+.Product3BorderColor {
+  border: 2px solid;
+  width: 25px;
+  height: 25px;
+  margin: 1%;
+  background-color: purple;
+}
+.Product4BorderColor {
+  border: 2px solid;
+  width: 25px;
+  height: 25px;
+  margin: 1%;
+  background-color: gray;
+}
+.SelectColor {
+  margin-left: 5px;
+  font-size: 38px;
+}
+
+
+.Colors {
+  display: flex;
+}
+.Colors :hover {
+  background-color: #ddd;
+  color: blueviolet;
+}
+
+
+
+
+
+
+
+
+.ContactTempTitle {
+  border-bottom: 10px solid;
+}
+.ContactTempProfile {
+  margin-top: 20px;
+  border: 5px solid cadetblue;
+}
+
+.AboutTempTitle {
+  border-bottom: 10px solid;
+}
+
+.AboutTempText {
+  padding-top: 40px;
+}
+
+.ProductsTempTitle {
+  border-bottom: 10px solid;
+}
+
+.ProductsTempPortfolio {
+  padding-top: 40px;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Products1Border {
+  border: 2px solid #000000;
+  background-color:crimson;
+}
+
+.Products1 {
+  padding-left: 10%;
+}
+.Products1 a {
+  text-decoration: none;
+}
+.Products3 {
+  padding-right: 10%;
+}
+.Products4 {
+  padding-left: 10%;
+}
+.Products6 {
+  padding-right: 10%;
+}
+.Products7 {
+  padding-left: 25%;
+}
+.Products8 {
+  padding-right: 25%;
+}
+
+.break {
+  flex-basis: 100%;
+}
+
+.ContactInputName {
+  margin: 40px;
+  padding: 10px;
+  border: 5px solid green;
+}
+
+.ContactInputName button {
+  font-size: 40px;
+}
+
+.ContactInputName textarea {
+  height: 200px;
+  width: 80%;
+  font-size: 20px;
+}
+
